@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/fdb.min.js"></script>
+</head>
+<body>
+    <div class="container main">
+        <div class="row title">
+                <h1>New Change</h1>
+        </div>
+        <div class="row form_date "  >
+                <p>Date</p>
+                <input type="date" />
+        </div>
+        <div class="row form_kind  ">
+                <p>類別</p>
+                <select class="custom-select" id="mySelect">
+                    <option selected>Select Here</option>
+                    <option value="1">Food</option>
+                    <option value="2">Transportation</option>
+                    <option value="3">Everyday Needs</option>
+                </select>
+        </div>
+        <div class="row form_price ">
+                <p>Cash Amount</p>
+                <input type="text"><br>
+        </div>
+        <div class="row form_remark ">
+                <p>Add description</p>
+                <input type="text"><br>
+        </div>
+        <div class="row">
+                <button class="btn btn-success" id="btn_submit" >Submit</button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
